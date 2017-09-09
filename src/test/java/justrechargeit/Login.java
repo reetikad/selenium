@@ -21,6 +21,11 @@ public class Login {
 		driver.findElement(By.id("txtPasswd")).sendKeys("123456");
 		
 		driver.findElement(By.id("imgbtnSignin")).click();
+		
+		
+		//git sample test
+		driver.findElement(By.id("imgbtnSigni")).click();
+		driver.findElement(By.id("imgbtnSin")).click();
 
 	}
 
